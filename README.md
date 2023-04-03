@@ -12,7 +12,7 @@ Federated Learning enables collaboration among multiple data owners who only sha
 
 
 
-## Covariance-Based attack algorithms
+## Covariance-Based attack algorithm
 ![alt text](https://github.com/manuhuth/Data-Leakage-From-Covariances/blob/main/images/figure2.drawio.png?raw=true)
 The algorithm assumes a distributed infrastructure with multiple servers, each hosting observations for different variables. The malicious client can focus on a specific variable on a specific server and retrieve the remaining data using three basic tools: a sample mean function, a sample covariance function, and an algorithm that generates linearly independent vectors. The algorithm involves evaluating the sample covariance to reconstruct inner vector products between the attacked variable and the linearly independent vectors, yielding a linear system of equations that can be solved to obtain the variable's data. The procedure can be repeated for each variable and server until all data is obtained.
 
