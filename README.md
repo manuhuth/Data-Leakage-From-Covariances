@@ -5,3 +5,14 @@ We show that these basic functionalities, which are available in several establi
 
 # Manuscript
 The current draft of our paper can be found on [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.10.09.511497v1).
+
+## Federated Learning
+![alt text](https://github.com/manuhuth/Data-Leakage-From-Covariances/blob/main/images/figure1.png?raw=true)
+
+
+## Covariance-Based attack algorithms
+![alt text](https://github.com/manuhuth/Data-Leakage-From-Covariances/blob/main/images/figure2.png?raw=true)
+
+
+## Robust to noise perturbations
+![alt text](https://github.com/manuhuth/Data-Leakage-From-Covariances/blob/main/images/figure4.png?raw=true)
