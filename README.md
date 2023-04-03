@@ -1,6 +1,7 @@
 # Data-Leakage-From-Covariances
-Privacy-preserving distributed modelling approaches, such as Federated Learning, are becoming increasingly relevant for analyzing sensitive data. Conceptually, these approaches facilitate an integrative data analysis without sharing the data, which is highly beneficial for application areas such as medicine. Yet, the risk of data leakage from malicious attacks needs to be carefully studied. 
+Federated Learning (FL) is gaining traction in various fields as it enables integrative data analysis without sharing sensitive data, such as in healthcare. However, the risk of data leakage caused by malicious attacks must be considered. In this study, we introduce a novel attack algorithm that relies on being able to compute sample means, sample covariances, and construct known linearly independent vectors on the data owner side. 
 
-Here, we take the perspective of a malicious client and present an attacking algorithm that builds on sample means, sample covariances, and creating known linearly independent vectors on the server-side. We show that already with these functionalities, which are available in most federated analysis frameworks, privacy-protected data can be exactly reconstructed. We demonstrate this limitation of existing frameworks and discuss possible defense strategies.
+We show that these basic functionalities, which are available in several established FL frameworks, are sufficient to reconstruct privacy-protected data. Additionally, the attack algorithm is robust to defense strategies that involve adding random noise. We demonstrate the limitations of existing frameworks and propose potential defense strategies analyzing the implications of using differential privacy. The novel insights presented in this study will aid in the improvement of FL frameworks.
 
-# Link to Paper
+# Manuscript
+The current draft of our paper can be found on [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.10.09.511497v1).
